@@ -57,3 +57,7 @@ sudo apt install python3-pip
 sudo pip3 install numpy
 sudo pip3 install boto3
 ```
+## Additional
+
+ - [x] Use `python3 TextractParserCumDetector.py >> DataDump.csv` to redirect output to csv file for further analysis
+ - [ ] Post processing of data and cleaning to make it more practically useful
