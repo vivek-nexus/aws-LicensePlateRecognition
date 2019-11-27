@@ -2,10 +2,11 @@
 
 This repository contains files of a project used to **recognize license plates from real life footage of vehicles**.
 
+**Keywords:** AWS API, EC2 instance, Cloud, Textract, Rekognition, python, OpenCV, Ubuntu, boto3, numpy, License Plate Recognition, Alpr, Image analysis, Real life image text recognition 
 ## Project Workflow  
 
  - Parse a video file to extract frames with custom FPS (OpenCV)
- - Pass the frame to [AWS Textract](https://docs.aws.amazon.com/textract/latest/dg/how-it-works.html) or [AWS Rekognition](https://aws.amazon.com/rekognition/?nc=sn&loc=0) service to analyse and return results
+ - Pass the frame to [AWS Textract](https://docs.aws.amazon.com/textract/latest/dg/how-it-works.html) or [AWS Rekognition](https://aws.amazon.com/rekognition) service to analyse and return results
  - All processing performed on the cloud on AWS EC2 VM instance
 
 ## Pre-Requisites
@@ -61,3 +62,4 @@ sudo pip3 install boto3
 
  - [x] Use `python3 TextractParserCumDetector.py >> DataDump.csv` to redirect output to csv file for further analysis
  - [ ] Post processing of data and cleaning to make it more practically useful
+
