@@ -46,7 +46,7 @@ Run the files in Ubuntu EC2 instance. Make sure to assign an IAM Role to the ins
 sudo apt update
 sudo apt install python3-opencv
 ```
-You may want to [compile OpenCV from source](https://docs.opencv.org/master/d2/de6/tutorial_py_setup_in_ubuntu.html) if above method doesn't work
+You may want to [compile OpenCV from source](https://docs.opencv.org/master/d2/de6/tutorial_py_setup_in_ubuntu.html) if above method doesn't work.
 
 ### Python3 modules
 ```
