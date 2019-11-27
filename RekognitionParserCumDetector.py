@@ -1,5 +1,5 @@
-#Try RekognitionLocal.py to test Textract functionality on a single local image
-# Use python3 REKOParserCumDetector.py >> DataDump.csv to redirect output of parser to csv file for further analysis
+# Try RekognitionLocal.py to test Textract functionality on a single local image
+# Use python3 RekognitionParserCumDetector.py >> DataDump.csv to redirect output of parser to csv file for further analysis
 
 import numpy as np
 import cv2 as cv
