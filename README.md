@@ -1,6 +1,6 @@
 # License Plate Text Recognition using AWS Textract/AWS Rekognition[Cloud]
 
-This repository contains files of a project used to **recognize license plates from real life footage of vehicles**.
+> **This repository contains files of a project used to recognize license plates from real life footage of vehicles.**
 
 **Keywords:** AWS API, EC2 instance, Cloud, Textract, Rekognition, python, OpenCV, Ubuntu, boto3, numpy, License Plate Recognition, Alpr, Image analysis, Real life image text recognition 
 ## Project Workflow  
