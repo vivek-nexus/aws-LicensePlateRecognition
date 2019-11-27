@@ -22,7 +22,7 @@ This repository contains files of a project used to **recognize license plates f
 | 2| `TextractLocal.py`| Processes a local image file (frame) using AWS Textract API and returns the result | 1. AWS Ubuntu Linux EC2 Instance over SSH with `Textract` Security policies applied to IAM role of the instance <br> 2. `boto3` python module|
 | 3| `RekognitionLocal.py`| Processes a local image file (frame) using AWS Rekognition API and returns the result. Claimed to produce better results than Textract on real life images | 1. AWS Ubuntu Linux EC2 Instance over SSH with `Rekognition` Security policies applied to IAM role of the instance <br> 2. `boto3` python module|
 | 4|`TextractParserCumDetector.py` | Processes a local video file at a specified frame rate using Textract API and returns the extracted results with timestamp | 1. OpenCV with Python (Python3 for uniformity across the project), <br> 2. AWS Ubuntu Linux EC2 Instance over SSH with `Textract` Security policies applied to IAM role of the instance <br> 3. `boto3` and `numpy` python modules|
-| 5|`RekognitionParserCumDetector.py` | Processes a local video file at a specified frame rate using Rekognition API and returns the extracted results with timestamp | 1. OpenCV with Python (Python3 for uniformity across the project), <br> 2. AWS Ubuntu Linux EC2 Instance over SSH with `Rekognition` Security policies applied to IAM role of the instance <br> 3. `boto3` and `numpy` python modules|
+| 5|`RekognitionParserCumDetector.py` | Processes a local video file at a specified frame rate using Rekognition API and returns the extracted results with timestamp. Claimed to produce better results than Textract on real life images | 1. OpenCV with Python (Python3 for uniformity across the project), <br> 2. AWS Ubuntu Linux EC2 Instance over SSH with `Rekognition` Security policies applied to IAM role of the instance <br> 3. `boto3` and `numpy` python modules|
 
 ***Files above are not dependent each other.***
 
@@ -35,11 +35,12 @@ Run the files in Ubuntu EC2 instance. Make sure to assign an IAM Role to the ins
  - `python3 VideoParserFPS.py` 
  - `python3 TextractLocal.py`
 
+and so on...
 ### Parameters to be set
  - Run the desired file from the same directory where `frame.jpg` or `video.mp4` is present. Frame name/Video Name hard coded
  - Set aws-region in files 2, 3, 4, 5
 
-## Quick Guide to install Requirements
+## Quick Guide to Install Requirements
 
  ### OpenCV
  ```
