@@ -16,7 +16,7 @@ while cap.isOpened():
 
     nowTime = time.time()
     if (nowTime - startTime) > fpsLimit:
-        cv.imshow('frame', frame)
+        # cv.imshow('frame', frame)
         print("Image written")
         cv.imwrite("frame.jpg", frame) # frame will be written to disk
         startTime = time.time() # reset time
