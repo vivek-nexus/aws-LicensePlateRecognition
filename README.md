@@ -1,4 +1,4 @@
-# License Plate Text Recognition using AWS Textract/AWS Rekognition[Cloud]
+# [License Plate Text Recognition using AWS Textract/AWS Rekognition[Cloud]](https://github.com/yakshaG/aws-LicensePlateRecognition)
 
 ## About
 **Powerful tool to recognise license plates of vehicles from a video and convert them to text data for storage/data analysis**
