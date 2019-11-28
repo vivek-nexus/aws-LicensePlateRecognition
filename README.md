@@ -47,7 +47,7 @@ and so on...
 
 ## Quick Guide to Install Requirements
 
- ### OpenCV
+### OpenCV
  ```
 sudo apt update
 sudo apt install python3-opencv
