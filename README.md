@@ -2,7 +2,6 @@
 
 ## About
 Powerful tool to recognise license plates of vehicles from a video and convert them to text data for storage/data analysis
-
 Uses AWS Services such as Textract and Rekognition to efficiently extract text from the video
 
 
