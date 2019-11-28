@@ -1,8 +1,8 @@
 # License Plate Text Recognition using AWS Textract/AWS Rekognition[Cloud]
 
 ## About
-Powerful tool to recognise license plates of vehicles from a video and convert them to text data for storage/data analysis
-Uses AWS Services such as Textract and Rekognition to efficiently extract text from the video
+- Powerful tool to recognise license plates of vehicles from a video and convert them to text data for storage/data analysis
+- Uses AWS Services such as Textract and Rekognition to efficiently extract text from the video
 
 
 **Keywords:** AWS API, EC2 instance, Cloud, Textract, Rekognition, python, OpenCV, Ubuntu, boto3, numpy, License Plate Recognition, Alpr, Image analysis, Real life image text recognition 
